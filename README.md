@@ -1,5 +1,5 @@
 # Rock-paper- scissors 
-***
+
 Learning outcome :
 
 * How to randomly select items or numbers from an array.
