@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Rock Paper scissors">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rock Paper Scissors </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <header>
+        <h1> Mankind vs Predator</h1>
+    </header>
+
+<body>
+    <div class=container>
+        <h2 id="hide">Aliens are threatening to take over the world...</h2>
+        <h2 id="hide"> & The only way to save mankind is to win in a game of ROCK PAPER SCISSORS</h2>
+        <h2 id="hide">The winner is the first to reach 5 points!! </h2>
+        <h2>Do you have what it takes?</h2>
+
+    </div>
+    <div class="choices">
+        <img id='rock' class="choice" src="img/rock.jpg" alt="rock">
+        <img id='paper' class="choice" src="img/paper.jpg" alt="paper">
+        <img id='scissors' class="choice" src="img/scissors.jpg" alt="scissors">
+    </div>
+
+    <div class="action">
+        <h2> Choose your weapon!</h2>
+    </div>
+    <div class="scoreboard">
+        <p id=player> Player</p>
+        <p id=predator>Predator</p>
+        <div id="score">
+            <h3 class='text' id="playerScore">0</h3>
+            <h3 class='text' id="predatorScore">0</h3>
+        </div>
+    </div>
+    <!-- Modal-->
+    <div class="modal">
+        <p id="result" class="result"></p>
+    </div>
+    </div>
+
+    <div id="button-conatiner">
+        <button id="restart" class="hidden">play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
